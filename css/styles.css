@@ -1,0 +1,26 @@
+/****************************************
+*
+* Main stylesheet
+*
+* Property declaration order
+*
+* position
+* display
+* box model
+* color
+* text
+* other
+*
+*****************************************/
+html {
+  font-size: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

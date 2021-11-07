@@ -4,7 +4,8 @@
   "description": "second hand toy web app",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "scss": "gulp sass",
+    "watch": "gulp sass:watch"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,17 @@
   "author": "M Speight",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2"
-  }
+    "bower": "^1.8.12",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-usemin": "^0.3.30",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4"
+  },
+  "false": {}
 }
