@@ -1,0 +1,39 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  & > div {
+    width: 50%;
+  }
+}
+
+.inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-size: 49px;
+  line-height: 60px;
+  font-weight: $semiBold;
+  letter-spacing: -3.6px;
+  margin-bottom: 21px;
+}
+p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: $regular;
+}
+p.subheading {
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: $extraBold;
+}
+.btn {
+  .btn--text {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: $extraBold;
+  }
+}

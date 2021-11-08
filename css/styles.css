@@ -12,6 +12,104 @@
 * other
 *
 *****************************************/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+.montserrat-font {
+  font-family: "Montserrat", sans-serif;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extraBold {
+  font-weight: 800;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, nav, section {
+  display: block;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  background: white;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  float: none !important;
+}
+
+table, th, td {
+  vertical-align: middle;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+
+a img {
+  border: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+img.full {
+  max-width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
 html {
   font-size: 16px;
   width: 100%;
@@ -21,6 +119,376 @@ html {
 
 html,
 body {
+  margin: 0;
+  padding: 0;
   width: 100%;
   overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  margin: 0 0 202px;
+  height: 720px;
+  background-color: #FBF8E9;
+}
+header .inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.logo-area {
+  display: flex;
+  justify-content: center;
+  height: 154px;
+}
+.logo-area a {
+  display: block;
+  height: 103px;
+  width: 101px;
+  margin-top: 50px;
+  background-color: transparent;
+  background-image: url("../assets/images/Little Loft Logo.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+
+.hero--content--wrapper {
+  width: 394px;
+  padding-top: 140px;
+}
+
+.hero--content--cta,
+.footer--content--cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 43px;
+}
+.hero--content--cta a:first-child,
+.footer--content--cta a:first-child {
+  margin-right: 20px;
+}
+.hero--content--cta a.btn--cta,
+.footer--content--cta a.btn--cta {
+  display: block;
+  width: 176px;
+  height: 52px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  line-height: 0;
+  font-size: 0;
+  color: transparent;
+}
+
+.btn--cta--google-play {
+  background-image: url("../assets/images/google-play-btn.png");
+}
+
+.btn--cta--app-store {
+  background-image: url("../assets/images/app-store-btn.png");
+}
+
+.hero--image {
+  position: relative;
+  left: -25px;
+}
+
+section {
+  min-height: 700px;
+}
+
+.section-1,
+.section-3 {
+  padding-left: 57px;
+}
+.section-1 .flex-container > div,
+.section-3 .flex-container > div {
+  width: 43%;
+}
+.section-1 .section--content,
+.section-3 .section--content {
+  padding-top: 170px;
+}
+
+.section-2,
+.section-4 {
+  padding-left: 49px;
+}
+.section-2 .section--content,
+.section-4 .section--content {
+  padding-top: 170px;
+}
+.section-2 .section--img,
+.section-4 .section--img {
+  padding-left: 122px;
+}
+
+.case-studies-section {
+  padding-top: 116px;
+  background-color: #FBF8E9;
+}
+.case-studies-section .section--content {
+  padding: 84px 55px 0 0;
+}
+
+.form-section {
+  padding-top: 86px;
+  min-height: 422px;
+  background-color: #F7EFB4;
+}
+.form-section .section--content {
+  padding-top: 0;
+}
+.form-section form {
+  margin-top: 53px;
+}
+.form-section form input {
+  display: inline-block;
+  height: 48px;
+  width: 260px;
+  border: none;
+  border-radius: 24px;
+  color: #333;
+  background-color: white;
+  margin-right: 20px;
+}
+.form-section form input::placeholder {
+  padding-left: 24px;
+  line-height: 48px;
+}
+.form-section form button {
+  display: inline-block;
+  height: 48px;
+  width: 133px;
+  border: none;
+  border-radius: 24px;
+  color: white;
+  background-color: black;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+footer {
+  min-height: 480px;
+  color: white;
+  background-color: #1f1f1f;
+}
+footer .inner {
+  width: 500px;
+}
+footer .footer--content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer--footer {
+  padding-top: 50px;
+}
+.footer--footer .social-link {
+  display: inline-block;
+  margin-left: 20px;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+  background-color: white;
+  color: transparent;
+  line-height: 0;
+  font-size: 0;
+}
+.footer--footer p {
+  display: inline-block;
+  line-height: 48px;
+  position: relative;
+  top: 30px;
+}
+
+.footer--content--cta {
+  padding-bottom: 20px;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+.footer--content--cta a:first-child {
+  margin-right: 20px;
+}
+
+a.facebook {
+  background-image: url("../assets/images/facebook.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a.twitter {
+  background-image: url("../assets/images/twitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+a.insta {
+  background-image: url("../assets/images/insta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.flex-container > div {
+  width: 50%;
+}
+
+.inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-size: 49px;
+  line-height: 60px;
+  font-weight: 600;
+  letter-spacing: -3.6px;
+  margin-bottom: 21px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+p.subheading {
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 800;
+}
+
+.btn .btn--text {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 800;
+}
+
+@media (max-width: 400px) {
+  h1, h2 {
+    font-size: 30px;
+  }
+
+  header {
+    margin: 0 0 100px;
+    height: 805px;
+  }
+
+  header,
+footer {
+    text-align: center;
+  }
+  header .inner,
+footer .inner {
+    width: 285px;
+  }
+
+  .hero--content--wrapper {
+    width: 100%;
+    padding-top: 30px;
+  }
+
+  .hero--content--cta a.btn--cta,
+.footer--content--cta a.btn--cta {
+    width: 135px;
+    height: 40px;
+    background-size: 135px 40px;
+  }
+
+  .hero--image {
+    padding-top: 40px;
+  }
+
+  section {
+    text-align: center;
+    min-height: 560px;
+  }
+  section .inner {
+    width: 285px;
+  }
+
+  .section-1,
+.section-2,
+.section-3,
+.section-4 {
+    padding-left: 0;
+  }
+  .section-1 .flex-container > div,
+.section-2 .flex-container > div,
+.section-3 .flex-container > div,
+.section-4 .flex-container > div {
+    width: 100%;
+  }
+  .section-1 .section--content,
+.section-2 .section--content,
+.section-3 .section--content,
+.section-4 .section--content {
+    padding-top: 50px;
+  }
+
+  .section-1 .flex-container,
+.section-3 .flex-container {
+    flex-direction: column-reverse;
+  }
+
+  .section-2 .section--img,
+.section-4 .section--img {
+    padding-left: 0;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flex-container > div {
+    width: 100%;
+  }
+
+  .section--content {
+    width: 100%;
+  }
+
+  .section--img {
+    padding-top: 40px;
+  }
+
+  .case-studies-section {
+    padding-top: 40px;
+  }
+  .case-studies-section .section--content {
+    padding: 0;
+  }
+
+  .form-section {
+    padding-top: 20px;
+  }
+  .form-section form {
+    margin-bottom: 30px;
+  }
+  .form-section form input {
+    margin-bottom: 20px;
+  }
+
+  .inner {
+    width: 285px;
+    margin: 0 auto;
+  }
+
+  .footer--footer {
+    padding-top: 0;
+  }
+  .footer--footer p {
+    display: block;
+    margin-bottom: 20px;
+  }
 }

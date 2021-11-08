@@ -1,0 +1,210 @@
+html {
+  font-size: 16px;
+  width:100%;
+  margin:0;
+  padding: 0;
+}
+html,
+body {
+  margin:0;
+  padding: 0;
+  width:100%;
+  overflow-x: hidden;
+  font-family: $Montserrat-font;
+}
+header {
+  margin: 0 0 202px;
+  height: 720px;
+  background-color: $yellowPrimarylight;
+  .inner {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}
+.logo-area {
+  display: flex;
+  justify-content: center;
+  height: 154px;
+  a {
+    display: block;
+    height: 103px;
+    width: 101px;
+    margin-top: 50px;
+    background-color: transparent;
+    background-image: url("../assets/images/Little Loft Logo.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+  }
+}
+.hero--content--wrapper {
+  width: 394px;
+  padding-top: 140px;
+}
+.hero--content--cta,
+.footer--content--cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 43px;
+
+  a:first-child {
+    margin-right: 20px;
+  }
+
+  a.btn--cta {
+    display: block;
+    width: 176px;
+    height: 52px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+  }
+}
+.btn--cta--google-play {
+  background-image: url("../assets/images/google-play-btn.png");
+}
+.btn--cta--app-store {
+  background-image: url("../assets/images/app-store-btn.png");
+}
+.hero--image {
+  position: relative;
+  left: -25px;
+}
+section {
+  min-height: 700px;
+}
+.section-1,
+.section-3 {
+  padding-left: 57px;
+
+  .flex-container {
+    & > div {
+      width: 43%;
+    }
+  }
+  .section--content {
+    padding-top: 170px;
+  }
+}
+.section-2,
+.section-4 {
+  padding-left: 49px;
+  .flex-container {
+    & > div {
+    }
+  }
+  .section--content {
+    padding-top: 170px;
+  }
+  .section--img {
+    padding-left: 122px;
+  }
+}
+.case-studies-section {
+  padding-top: 116px;
+  background-color: $yellowPrimarylight;
+  .section--content {
+    padding: 84px 55px 0 0;
+  }
+}
+.form-section {
+  padding-top: 86px;
+  min-height: 422px;
+  background-color: $yellowPrimaryPastel;
+  .section--content {
+    padding-top: 0;
+  }
+  form {
+    margin-top: 53px;
+    input {
+      display: inline-block;
+      height: 48px;
+      width: 260px;
+      border: none;
+      border-radius: 24px;
+      color: #333;
+      background-color: white;
+      margin-right: 20px;
+
+      &::placeholder {
+        padding-left: 24px;
+        line-height: 48px;
+      }
+    }
+    button {
+      display: inline-block;
+      height: 48px;
+      width: 133px;
+      border: none;
+      border-radius: 24px;
+      color: white;
+      background-color: black;
+      font-size: 14px;
+      line-height: 22px;
+      font-weight: $regular;
+    }
+  }
+}
+footer {
+  min-height: 480px;
+  color: white;
+  background-color: $blackRich;
+  .inner {
+    width: 500px;
+  }
+
+  .footer--content {
+    text-align: center;
+    padding-top: 100px;
+  }
+}
+.footer--footer {
+  padding-top: 50px;
+  .social-link {
+    display: inline-block;
+    margin-left: 20px;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    background-color: white;
+    color: transparent;
+    line-height: 0;
+    font-size: 0;
+  }
+  p {
+    display: inline-block;
+    line-height: 48px;
+    position: relative;
+    top: 30px;
+  }
+}
+.footer--content--cta {
+  padding-bottom: 20px;
+  justify-content: center;
+  border-bottom: 1px solid white;
+
+  a:first-child {
+    margin-right: 20px;
+  }
+
+}
+a.facebook {
+  background-image: url("../assets/images/facebook.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a.twitter {
+  background-image: url("../assets/images/twitter.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+a.insta {
+  background-image: url("../assets/images/insta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,112 @@
+@media (max-width : 400px) {
+
+ h1,h2 {
+    font-size: 30px;
+ }
+  p.subheading {
+
+  }
+  p {
+
+  }
+  header {
+    margin: 0 0 100px;
+    height: 805px;
+  }
+  header,
+  footer {
+    text-align: center;
+    .inner {
+      width: 285px;
+    }
+  }
+  .hero--content--wrapper {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .hero--content--cta,
+  .footer--content--cta{
+    a {
+      &.btn--cta {
+        width: 135px;
+        height: 40px;
+        background-size: 135px 40px;
+      }
+    }
+  }
+  .hero--image {
+    padding-top: 40px;
+  }
+  section {
+    text-align: center;
+    min-height: 560px;
+    .inner {
+      width: 285px;
+    }
+  }
+  .section-1,
+  .section-2,
+  .section-3,
+  .section-4 {
+    padding-left: 0;
+    .flex-container {
+      & > div {
+        width: 100%;
+      }
+    }
+    .section--content {
+      padding-top: 50px;
+    }
+  }
+  .section-1,
+  .section-3 {
+    .flex-container {
+      flex-direction: column-reverse;
+    }
+  }
+  .section-2,
+  .section-4 {
+    .section--img {
+      padding-left: 0;
+    }
+  }
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+    & > div {
+      width: 100%;
+    }
+  }
+  .section--content {
+    width: 100%;
+  }
+  .section--img {
+    padding-top: 40px;
+  }
+  .case-studies-section {
+    padding-top: 40px;
+    .section--content {
+      padding: 0;
+    }
+  }
+  .form-section {
+    padding-top: 20px;
+    form  {
+      margin-bottom: 30px;
+      input {
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .inner {
+    width: 285px;
+    margin: 0 auto;
+  }
+  .footer--footer {
+    padding-top: 0;
+    p {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+}
