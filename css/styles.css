@@ -492,3 +492,150 @@ footer .inner {
     margin-bottom: 20px;
   }
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  h1, h2 {
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: 400;
+  }
+
+  p.subheading {
+    margin-bottom: 36px;
+    font-size: 28px;
+    line-height: 52px;
+    font-weight: 800;
+  }
+
+  header {
+    margin: 0 0 200px;
+    height: 1232px;
+  }
+
+  header,
+footer {
+    text-align: center;
+  }
+  header .inner,
+footer .inner {
+    width: 640px;
+  }
+
+  .hero--content--wrapper {
+    width: 100%;
+    padding-top: 60px;
+  }
+
+  .hero--content--cta a.btn--cta,
+.footer--content--cta a.btn--cta {
+    width: 270px;
+    height: 80px;
+    background-size: 270px 80px;
+  }
+
+  .hero--image {
+    padding-top: 40px;
+  }
+
+  section {
+    text-align: center;
+    min-height: 560px;
+  }
+  section .inner {
+    width: 640px;
+  }
+
+  .section-1,
+.section-2,
+.section-3,
+.section-4 {
+    padding-left: 0;
+  }
+  .section-1 .flex-container > div,
+.section-2 .flex-container > div,
+.section-3 .flex-container > div,
+.section-4 .flex-container > div {
+    width: 100%;
+  }
+  .section-1 .section--content,
+.section-2 .section--content,
+.section-3 .section--content,
+.section-4 .section--content {
+    padding-top: 100px;
+  }
+
+  .section-1 .flex-container,
+.section-3 .flex-container {
+    flex-direction: column-reverse;
+  }
+
+  .section-2 .section--img,
+.section-4 .section--img {
+    padding-left: 0;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flex-container > div {
+    width: 100%;
+  }
+
+  .section--content {
+    width: 100%;
+  }
+
+  .section--img {
+    padding-top: 80px;
+  }
+
+  .case-studies-section {
+    padding-top: 80px;
+  }
+  .case-studies-section .section--content {
+    padding: 0;
+  }
+
+  .form-section {
+    padding-top: 40px;
+  }
+  .form-section form {
+    margin-bottom: 60px;
+  }
+  .form-section form input {
+    height: 96px;
+    width: 520px;
+    border-radius: 48px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+  .form-section form input::placeholder {
+    padding-left: 48px;
+    line-height: 96px;
+    font-size: 32px;
+  }
+  .form-section form button {
+    height: 96px;
+    width: 266px;
+    border-radius: 28px;
+    font-size: 28px;
+    line-height: 44px;
+  }
+
+  .inner {
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  .footer--footer {
+    padding-top: 0;
+  }
+  .footer--footer p {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
